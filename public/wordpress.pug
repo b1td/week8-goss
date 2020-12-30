@@ -47,22 +47,20 @@ header#site-header.header-footer-group(role='banner')
         h1.site-title
           a(href='https://demoapp.kodaktor.ru/wordpress/') Wordpress 2020
         .site-description Just another WordPress site
-        // .site-description
-      // .header-titles
+        
       button.toggle.nav-toggle.mobile-nav-toggle(data-toggle-target='.menu-modal' data-toggle-body-class='showing-menu-modal' aria-expanded='false' data-set-focus='.close-nav-toggle')
         span.toggle-inner
           span.toggle-icon
             svg.svg-icon(aria-hidden='true' role='img' focusable='false' xmlns='http://www.w3.org/2000/svg' width='26' height='7' viewbox='0 0 26 7')
               path(fill-rule='evenodd' d='M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z' transform='translate(-329 -38)')
           span.toggle-text Menu
-      // .nav-toggle
-    // .header-titles-wrapper
+      
     .header-navigation-wrapper
       nav.primary-menu-wrapper(aria-label='Horizontal' role='navigation')
         ul.primary-menu.reset-list-style
           li.page_item.page-item-2
             a(href='https://demoapp.kodaktor.ru/wordpress/sample-page/') Sample Page
-      // .primary-menu-wrapper
+      
       .header-toggles.hide-no-js
         .toggle-wrapper.search-toggle-wrapper
           button.toggle.search-toggle.desktop-search-toggle(data-toggle-target='.search-modal' data-toggle-body-class='showing-search-modal' data-set-focus='.search-modal .search-field' aria-expanded='false')
@@ -70,10 +68,7 @@ header#site-header.header-footer-group(role='banner')
               svg.svg-icon(aria-hidden='true' role='img' focusable='false' xmlns='http://www.w3.org/2000/svg' width='23' height='23' viewbox='0 0 23 23')
                 path(d='M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z' transform='translate(-20 -31)')
               span.toggle-text Search
-          // .search-toggle
-      // .header-toggles
-    // .header-navigation-wrapper
-  // .header-inner
+          
   .search-modal.cover-modal.header-footer-group(data-modal-target-string='.search-modal')
     .search-modal-inner.modal-inner
       .section-inner
@@ -86,11 +81,7 @@ header#site-header.header-footer-group(role='banner')
           span.screen-reader-text Close search
           svg.svg-icon(aria-hidden='true' role='img' focusable='false' xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewbox='0 0 16 16')
             polygon(fill='' fill-rule='evenodd' points='6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102')
-        // .search-toggle
-      // .section-inner
-    // .search-modal-inner
-  // .menu-modal
-// #site-header
+        
 .menu-modal.cover-modal.header-footer-group(data-modal-target-string='.menu-modal')
   .menu-modal-inner.modal-inner
     .menu-wrapper.section-inner
@@ -99,19 +90,15 @@ header#site-header.header-footer-group(role='banner')
           span.toggle-text Close Menu
           svg.svg-icon(aria-hidden='true' role='img' focusable='false' xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewbox='0 0 16 16')
             polygon(fill='' fill-rule='evenodd' points='6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102')
-        // .nav-toggle
+        
         nav.mobile-menu(aria-label='Mobile' role='navigation')
           ul.modal-menu.reset-list-style
             li.page_item.page-item-2
               .ancestor-wrapper
                 a(href='https://demoapp.kodaktor.ru/wordpress/sample-page/') Sample Page
-              // .ancestor-wrapper
-      // .menu-top
+        
       .menu-bottom
-      // .menu-bottom
-    // .menu-wrapper
-  // .menu-modal-inner
-// .menu-modal
+      
 main#site-content(role='main')
   article#post-1.post-1.post.type-post.status-publish.format-standard.hentry.category-uncategorized
     header.entry-header.has-text-align-center
@@ -120,10 +107,9 @@ main#site-content(role='main')
           span.screen-reader-text Categories
           .entry-categories-inner
             a(href='https://demoapp.kodaktor.ru/wordpress/category/uncategorized/' rel='category tag') Uncategorized
-          // .entry-categories-inner
-        // .entry-categories
+          
         h2.entry-title.heading-size-1
-          a(href='https://demoapp.kodaktor.ru/wordpress/2020/11/27/hello-world/') iitmo294646
+          a(href='https://demoapp.kodaktor.ru/wordpress/2020/11/27/hello-world/') itmo287668
         .post-meta-wrapper.post-meta-single.post-meta-single-top
           ul.post-meta
             li.post-author.meta-wrapper
@@ -133,7 +119,7 @@ main#site-content(role='main')
                   path(fill='' d='M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z')
               span.meta-text
                 | By 
-                a(href='#') itmo294646
+                a(href='#') itmo287668
             li.post-date.meta-wrapper
               span.meta-icon
                 span.screen-reader-text Post date
@@ -142,16 +128,12 @@ main#site-content(role='main')
               span.meta-text
                 a(href='https://demoapp.kodaktor.ru/wordpress/2020/11/27/hello-world/') December 13, 2020
             
-          // .post-meta
-        // .post-meta-wrapper
-      // .entry-header-inner
-    // .entry-header
     .post-inner.thin
       .entry-content
         p
           | Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
         center
-          b &copy; 2020 itmo294646
+          b &copy; 2020 itmo287668
       // .entry-content
     // .post-inner
     .section-inner
@@ -184,7 +166,7 @@ main#site-content(role='main')
                   span.comment-author-link
                     a.url(href='https://wordpress.org/' rel='external nofollow ugc') A WordPress Commenter
                   |  on 
-                  a(href='https://demoapp.kodaktor.ru/wordpress/2020/11/27/hello-world/#comment-1') itmo294646
+                  a(href='https://demoapp.kodaktor.ru/wordpress/2020/11/27/hello-world/#comment-1') itmo287668
         .footer-widgets.column-two.grid-item
           .widget.widget_archive
             .widget-content
@@ -210,10 +192,7 @@ main#site-content(role='main')
                   a(href='https://demoapp.kodaktor.ru/wordpress/comments/feed/') Comments feed
                 li
                   a(href='https://wordpress.org/') WordPress.org
-      // .footer-widgets-wrapper
-    // .footer-widgets-outer-wrapper
-  // .footer-inner
-// .footer-nav-widgets-wrapper
+      
 footer#site-footer.header-footer-group(role='contentinfo')
   .section-inner
     .footer-credits
@@ -221,24 +200,20 @@ footer#site-footer.header-footer-group(role='contentinfo')
         | &copy;
         | 2020&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
         a(href='https://demoapp.kodaktor.ru/wordpress/') Wordpress 2020
-      // .footer-copyright
+      
       p.powered-by-wordpress
         a(href='https://wordpress.org/')
           | Powered by *WordPress*
-      // .powered-by-wordpress
-    // .footer-credits
+     
     a.to-the-top(href='#site-header')
       span.to-the-top-long
         | To the top 
         span.arrow(aria-hidden='true') &uarr;
-      // .to-the-top-long
+      
       span.to-the-top-short
         | Up 
         span.arrow(aria-hidden='true') &uarr;
-      // .to-the-top-short
-    // .to-the-top
-  // .section-inner
-// #site-footer
+      
 script#wp-embed-js(src='https://demoapp.kodaktor.ru/wordpress/wp-includes/js/wp-embed.min.js?ver=5.5.3')
 script.
   /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
