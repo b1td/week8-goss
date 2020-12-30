@@ -1,5 +1,6 @@
 export default (express, bodyParser, fs, crypto, http, mongodb, path, cors, puppeteer) => {
     const app = express();
+     const author = "itmo287668";
     const __dirname = path.resolve();
     app.set('view engine', 'pug');
     app.set('views', path.join(__dirname, 'public'));
@@ -43,7 +44,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors, pupp
             // res.setHeader('content-type', 'text/plain');
             // res.send("0.8862481722945399");
         })
-        .get('/wordpress/wp-json/wp/v2/posts/1', (req, res) => res.status(200).json({title: {id: 1, rendered: "itmo294646"}}))
+        .get('/wordpress/wp-json/wp/v2/posts/1', (req, res) => res.status(200).json({title: {id: 1, rendered: author}}))
         .post('/render/', (req, res) => {
             const {random2, random3} = req.body;
 
@@ -80,7 +81,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors, pupp
             res.status(200).end();
         
         })
-        .get('/login/', (req, res) => res.send('itmo294646'))
+        .get('/login/', (req, res) => res.send(author))
         .get('/code/', (req, res) => fs.createReadStream(import.meta.url.substring(7)).pipe(res))
         .get('/sha1/:input/', (req, res) => {
             const { input } = req.params;
@@ -133,7 +134,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors, pupp
             });
         })
         .all('*', (req, res) => {
-            res.send('itmo294646');
+            res.send(author);
         });
 
 
