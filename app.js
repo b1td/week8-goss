@@ -1,6 +1,6 @@
 export default (express, bodyParser, fs, crypto, http, mongodb, path, cors, puppeteer) => {
     const app = express();
-     const author = "itmo288706";
+     const author = "itmo288766";
     const __dirname = path.resolve();
     app.set('view engine', 'pug');
     app.set('views', path.join(__dirname, 'public'));
